@@ -1,125 +1,411 @@
-.relative{
-    position: relative;
+body{
+    margin: 0px;
 }
-.navbar{
-    position: absolute;
-    width: 100%;
-    height: 92px;
-    left: 0px;
-    top: 0px;
-    background: #000000;
+.landing{
+    background-color: #000000;
+}
+.top{
+    color: white;
+    display: flex;
 }
 .logo{
-    position: absolute;
-    width: 80px;
-    height: 24px;
-    left: 12.5%;
-    top: 34px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
     font-size: 20px;
     line-height: 24px;
-    color: #F8FAFC;
+    padding: 34px 20% 34px 12.5%;
 }
-.header-content-case{
-    position: absolute;
-    width: 98px;
-    height: 18px;
-    left: 36%;
-    top: 40%;
+.head-contains{
+    display: flex;
+}
+.case{
+    padding: 37px 24px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #F8FAFC;
 }
-
-.header-content-about{
-    position: absolute;
-    width: 98px;
-    height: 18px;
-    left: 45%;
-    top: 40%;
+.about{
+    padding: 37px 24px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #F8FAFC;
 }
-.header-content-resume{
-    position: absolute;
-    width: 98px;
-    height: 18px;
-    left: 50%;
-    top: 40%;
+.resume{
+    padding: 37px 24px;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #F8FAFC;
 }
-.sayhi{
-    position: absolute;
-    width: 110px;
-    /* height: 30px; */
-    left: 81%;
-    padding: 10px;
-    top: 30%;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.08em;
-    /* text-transform: uppercase; */
-    background: black;
-    color: #F8FAFC;
-    border-radius: 25px;
+.hibutton{
+    float: right;
+    padding: 10px 20px;
+    margin-top: -4.5%;
+    margin-right: 7%;
     border: 2px solid grey;
-}
-.proposal{
-    position: absolute;
-    width: 100%;
-    top: 28%;
-    left: 0;
-    background: #000000;
-}
-.main-sec{
-    position: absolute;
-    padding-top: 2%;
-    width: 100%;
-    left: 0px;
-    top: 92px;
+    border-radius: 28px;
     background: black;
+    color: white;
+}
+.info-head{
+    font-family: Inter; 
 }
 .namste{
-    font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 18px;
-    text-align: center;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
     color: #F8FAFC;
+    text-align: center;
 }
-.craft{
-    font-family: Inter;
+.intro{
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 96px;
     line-height: 100%;
     text-align: center;
     letter-spacing: -0.05em;
-    color: #E2E8F0;  
+    color: #E2E8F0;
+    padding: 10px;
+}
+.getProposal{
+    background: #1030ED;
+    border-radius: 64px;
+    padding: 12px 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #1030ED;
+    color: #F8FAFC;
+}
+.center-button{
+    text-align: center;
+    padding: 40px 0px 200px 0px;
+}
+.slide-sec{
+    background: #FFFFFF;
+border: 0.5px solid #E2E8F0;
+box-shadow: 0px 4px 20px rgba(30, 41, 59, 0.1);
+border-radius: 10px;
+display: flex;
+width: 40%;
+margin-left: 30%;
+margin-top: -6%;
+}
+.slide-content{
+   padding: 10px;
+   font-family: Inter;
+}
+.slide-img{
+  width: 184px;
+  border-radius: 10px 0px 0px 10px;
+  
+}
+.slide-heading{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding: 8px 2px 0px 10px;
+}
+.slide-subheading{
+    font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+padding: 0px 0px 0px 11px;
+
+color: #94A3B8;
+}
+.slide-brief{
+    font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* Neutral / Gray 900 */
+
+color: #0F172A;
+}
+.design{
+    border-radius: 20px;
+    background: #F8FAFC;
+}
+.design-works{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    background: #F8FAFC;
+}
+.design-main{
+    font-family: Inter;
+    padding: 60px;
+}
+.design-info{
+   
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    /* Primary/Blue 700 (Main) */
+    
+    color: #1030ED;
+    
+    opacity: 0.8;
+}
+.design-head{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    /* identical to box height, or 118% */
+    
+    letter-spacing: -0.02em;
+    
+    /* Neutral / Gray 900 */
+    
+    color: #0F172A;
+}
+.design-content{
+/* Body / Regular / Large 16px */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Neutral / Gray 600 */
+
+color: #475569;
+}
+.design-img{
+    margin-top: -29%;
+    margin-left: 50%;
+    width: 40%;
+
+}
+.comming-soon{
+    color: #94A3B8;
+    border: 1px solid #94A3B8;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 20px;
+}
+.comming-soon:hover{
+    color: #94A3B8;
+    border: 1px solid #94A3B8;
+    padding: 10px 20px;
+    background: blue;
+    border-radius: 20px;
+}
+.freebiews{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #0F172A;
+}
+.freebi-sub{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #64748B;
+        padding-bottom: 30px;
+}
+.free-heading{
+    padding-top: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #0F172A;
+}
+.free-p{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px; 
+color: #64748B;
+
+}
+.free-img{
+    width: 330px;
+    height: 240px;
+}
+.download{
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.08em;
+text-transform: uppercase;
+
+/* Primary/Blue 700 (Main) */
+
+color: #1030ED;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.card{
+    margin: 10% 0px;
+    background: url(assets/arcy\ slides\ 3-11\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 20px;
+}
+.idea{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #F8FAFC;
+}
+.idea-sub{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #F8FAFC;
+}
+.connect{
+    background: rgba(248, 250, 252, 0.3);
+    border-radius: 64px;
+    width: 25%;
+    color: white;
+}
+.connect-div{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.priyak{
+    font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 40px;
+/* identical to box height, or 125% */
+
+letter-spacing: 0.5px;
+text-transform: uppercase;
+
+/* Neutral / Gray 400 */
+
+color: #94A3B8;
+}
+.priyak-sub{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral / Gray 500 */
+
+color: #64748B;
+}
+.greet{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    /* Neutral / Gray 500 */
+    
+    color: #64748B;
+    
+}
+.mail{
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral / Gray 900 */
+
+color: #0F172A;
+}
+.ph{
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral / Gray 900 */
+
+color: #0F172A;
+
+}
+.footer{
+    margin-top: 9%;
+    background: #F8FAFC;
+    padding-top: 5%;
+    padding-bottom: 9%;
+}
+.bold{
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Neutral / Gray 900 */
+
+color: #0F172A;
 }
